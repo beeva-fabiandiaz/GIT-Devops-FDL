@@ -1,0 +1,32 @@
+ 2037  git remote add origin git@github.com:beeva-fabiandiaz/GIT-Devops-FDL.git
+ 2038  git push origin master
+ 2039  git checkout -b
+ 2040  git checkout -b Desarrollo
+ 2041  echo "Desarrollo, Fabian Diaz Lorenzo" >> README.md 
+ 2042  git add .
+ 2043  git commit -m "Update README for nombrar rama"
+ 2044  git checkout -b Preproduccion
+ 2045  git commit -a-m "Update README for nombrar rama preproducion"
+ 2046  git commit -a -m "Update README for nombrar rama preproducion"
+ 2047  git checkout master
+ 2048  git branch
+ 2049  git branch -h
+ 2050  git branch -d Preproduccion 
+ 2051  git branch -D Preproduccion 
+ 2052  git checkout -b Preproduccion
+ 2053  git commit -a -m "Update README for nombrar rama preproducion"
+ 2054  ls
+ 2055  echo "Preproduccion, Fabian Diaz Lorenzo" >> README.md 
+ 2056  cat README.md 
+ 2057  git commit -a -m "Update README for nombrar rama preproducion"
+ 2058  git checkout master
+ 2059  git merge Desarrollo 
+ 2060  git merge Preproduccion 
+ 2061  git status
+ 2062  git checkout -a
+ 2063  git checkout head
+ 2064  git checkout HEAD
+ 2065  vi README.md 
+ 2066  git status
+ 2067  vi README.md 
+ 2068  git status
